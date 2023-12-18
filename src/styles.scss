@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  Para resolver o Warn:  ctrl+sihft+p -> Change Language Mode -> tailwindcss
+  Após seguir os passos dessa issue -> https://github.com/tailwindlabs/tailwindcss/discussions/5258
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background-100 text-white;
+}
