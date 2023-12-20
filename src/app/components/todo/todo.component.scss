@@ -9,7 +9,7 @@
     @apply relative flex items-center rounded-lg overflow-hidden;
 
     input {
-      @apply w-64 p-2 rounded-lg bg-background-300;
+      @apply w-64 p-2 rounded-lg bg-background-300 outline-none;
     }
 
     button {
@@ -37,8 +37,8 @@
     }
 
     .todo {
-      .label {
-        @apply flex-1;
+      label {
+        @apply flex-1 ;
       }
 
       &:hover button {
